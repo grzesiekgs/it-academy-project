@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --config webpack.config.js --inline --progress --open",
-    "build": "webpack --mode production --config webpack.config.js",
     "lint": "eslint ./ --ext .js",
     "lint:fix": "esling ./ --ext .js --fix"
   },
